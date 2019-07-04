@@ -1,0 +1,10 @@
+@Test
+Feature: We want to automate Oranage HRM site
+
+  Background:                   # Test.feature:4
+    Given I ve the site running # Cucumberclass.running()
+
+  @do
+  Scenario: Title of your scenario             # Test.feature:14
+    Given I ve the site running                # Cucumberclass.running()
+    Then I want to check the title of the page # Cucumberclass.meth()

@@ -1,0 +1,79 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14919149656,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I ve the site running",
+            "match": {
+              "location": "Cucumberclass.running()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "we-want-to-automate-oranage-hrm-site;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16713971545,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I ve the site running",
+            "match": {
+              "location": "Cucumberclass.running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1151102998,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to check the title of the page",
+            "match": {
+              "location": "Cucumberclass.meth()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@do"
+          }
+        ]
+      }
+    ],
+    "name": "We want to automate Oranage HRM site",
+    "description": "",
+    "id": "we-want-to-automate-oranage-hrm-site",
+    "keyword": "Feature",
+    "uri": "Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
